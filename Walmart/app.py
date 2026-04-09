@@ -9,7 +9,7 @@ st.set_page_config(page_title="🛒 Walmart SQL Dashboard", layout="wide")
 # ========================= LOAD & CLEAN DATA =========================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Walmart.csv")
+    df = pd.read_csv("Walmart/Walmart.csv")
 
     df.columns = (df.columns.str.strip()
                   .str.lower()
