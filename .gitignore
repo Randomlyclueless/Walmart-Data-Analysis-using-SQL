@@ -1,0 +1,6 @@
+venv/
+Walmart/venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
