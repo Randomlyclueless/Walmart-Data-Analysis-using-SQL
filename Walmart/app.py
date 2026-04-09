@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import plotly.express as px
-import os
-st.write("Files in directory:", os.listdir('.'))
+
 st.set_page_config(page_title="🛒 Walmart SQL Dashboard", layout="wide")
 
 # ========================= LOAD & CLEAN DATA =========================
